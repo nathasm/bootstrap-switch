@@ -1,7 +1,7 @@
 /*! ============================================================
  * bootstrapSwitch v1.8 by Larentis Mattia @SpiritualGuru
  * http://www.larentis.eu/
- * 
+ *
  * Enhanced for radiobuttons by Stein, Peter @BdMdesigN
  * http://www.bdmdesign.org/
  *
@@ -336,7 +336,7 @@
         var $label = $element.find("label");
         $.each(['switch-mini', 'switch-small', 'switch-large'], function (i, el) {
           if (el !== value) {
-            $switchLeft.removeClass(el)
+            $switchLeft.removeClass(el);
             $switchRight.removeClass(el);
             $label.removeClass(el);
           } else {
